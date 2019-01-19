@@ -1,0 +1,26 @@
+{
+  "name": "fhirapp",
+  "version": "1.0.0",
+  "description": "example fhir app using vue.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobHedgecock/fhir-vue.git"
+  },
+  "keywords": [
+    "fhir",
+    "FHIR"
+    ],
+  "author": "rob hedgecock <rob.hedgecock@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobHedgecock/fhir-vue/issues"
+  },
+  "homepage": "https://github.com/RobHedgecock/fhir-vue#readme",
+  "dependencies": {
+    "webpack": "^4.28.4"
+  }
+}
