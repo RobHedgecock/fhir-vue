@@ -13,7 +13,7 @@
   "keywords": [
     "fhir",
     "FHIR"
-    ],
+  ],
   "author": "rob hedgecock <rob.hedgecock@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/RobHedgecock/fhir-vue#readme",
   "dependencies": {
+    "fhir.js": "0.0.20",
     "webpack": "^4.28.4"
   }
 }

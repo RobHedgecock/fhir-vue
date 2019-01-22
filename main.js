@@ -1,6 +1,10 @@
-const Fhir = require('../fhir.js/src/adapters/native');
-var client = Fhir({
-  baseUrl: 'http://hapi.fhir.org/baseDstu3'
+// Include the adapter
+var nativeFhir = require('fhir.js/src/adapters/native');
+
+// Create fhir instance
+var Fhir = nativeFhir({
+    baseUrl: 'http://hapi.fhir.org/baseDstu3'
+    //,auth: {user: 'client', pass: 'secret'}
 });
 
 function getName(r) {
