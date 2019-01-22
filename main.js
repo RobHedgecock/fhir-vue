@@ -24,7 +24,7 @@ function getName(r) {
 window.getPatients = function (page = 1, limit = 5) {
   const pDoc = document.querySelector('#pagination');
   const ptDoc = document.querySelector('#patients');
-  client.search({
+  Fhir.search({
     type: 'Patient',
     query: {
       _count: limit,
